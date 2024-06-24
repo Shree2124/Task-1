@@ -9,6 +9,38 @@
   padding-left: 14px;
 }
 
+.custom-modal-header {
+  color: #008a45;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: var(--bs-modal-color);
+  pointer-events: auto;
+  background-color: var(--bs-modal-bg);
+  background-clip: padding-box;
+  border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+  border-radius: var(--bs-modal-border-radius);
+  outline: 0;
+}
+@media (min-width: 992px) {
+  .modal-lg, .modal-xl {
+      --bs-modal-width: 800px;
+  }
+}
+@media (min-width: 576px) {
+  .modal {
+      --bs-modal-margin: 1.75rem;
+      --bs-modal-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+}
+
 .custom-input-search {
   border: none;
   background-color: #f2f2f2;

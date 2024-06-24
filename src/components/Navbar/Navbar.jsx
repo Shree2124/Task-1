@@ -214,7 +214,7 @@ function Navbar() {
         </form>
         <div className="d-flex align-items-center gap-1">
           <Button
-            className="btn custom-btn-create p-0 m-0"
+            className="btn custom-btn-create p-0 m-0 bg-white text-black border-0"
             onClick={handleShow}
           >
             Create Account.{" "}
@@ -227,9 +227,11 @@ function Navbar() {
               src="data:image/svg+xml,%3csvg%20width='22'%20height='22'%20viewBox='0%200%2022%2022'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='baseline-arrow_drop_down-24px'%20clip-path='url(%23clip0_1_1136)'%3e%3cpath%20id='Vector'%20d='M6.41667%209.16669L11%2013.75L15.5833%209.16669H6.41667Z'%20fill='black'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_1_1136'%3e%3crect%20width='22'%20height='22'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
             />
           </div>
-          <Modal show={show} onHide={handleClose} centered>
-            <Modal.Header closeButton>
-              <Modal.Title>
+          <Modal  show={show} onHide={handleClose} centered>
+           
+
+            <Modal.Header closeButton >
+              <Modal.Title className="modal-header custom-modal-header d-flex justify-content-center mb-4 ">
                 Let's learn, share & inspire each other with our passion for
                 computer engineering. Sign up now 🤘🏼
               </Modal.Title>
@@ -258,6 +260,7 @@ function Navbar() {
                       </Form.Group>
                       <Form.Group className="mb-3" controlId="formEmail">
                         <Form.Control type="email" placeholder="Email" />
+            
                       </Form.Group>
                       <Form.Group className="mb-3" controlId="formPassword">
                         <Form.Control type="password" placeholder="Password" />
