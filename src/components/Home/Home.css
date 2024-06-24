@@ -1,0 +1,106 @@
+.background {
+  background: url("./../../images/background.png") center center / cover
+    no-repeat;
+  height: 440px;
+}
+.overly {
+  background-color: rgba(33, 37, 41, 0.4);
+  z-index: 10;
+  height: 40vh;
+  width: 100%;
+}
+.background-text-home {
+  justify-content: space-between;
+}
+/* .margin-right{
+  margin-right: "5rem"
+} */
+.join-group {
+  color: #fff;
+  border: 0.8px solid #ffff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.join-group:hover{
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: auto;
+  }
+
+  .overly {
+    background-color: rgba(33, 37, 41, 0.4);
+    z-index: 10;
+    height: 40vh;
+    width: 100%;
+  }
+}
+
+@media (min-width: 300px) {
+  .overly {
+    background-color: rgba(33, 37, 41, 0.4);
+    z-index: 10;
+    height: 34vh;
+    width: 100%;
+  }
+  .margin-right{
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 500px) {
+  .container,
+  .container-sm {
+    max-width: auto;
+  }
+
+  .overly {
+    background-color: rgba(33, 37, 41, 0.4);
+    z-index: 10;
+    height: 34vh;
+    width: 100%;
+  }
+
+  .margin-right{
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .background-text-home {
+    justify-content: end;
+  }
+  .margin-right{
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .background-text-home {
+    justify-content: end;
+  }
+  .margin-right{
+    margin-right: 0;
+  }
+  .overly {
+    background-color: rgba(33, 37, 41, 0.4);
+    z-index: 10;
+    height: 64vh;
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .custom-bg-container {
+    height: 236px !important;
+  }
+  .margin-right{
+    margin-right: 0;
+  }
+}

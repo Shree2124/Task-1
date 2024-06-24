@@ -1,0 +1,31 @@
+.bg-color {
+  background-color: #f2f2f2;
+  border: none;
+}
+.custom-search {
+  border: none;
+  border-radius: 21px 0 0 21px;
+  background-color: #f2f2f2;
+  padding-left: 14px;
+}
+
+.custom-input-search {
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 0 21px 21px 0;
+}
+
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: auto;
+  }
+}
+
+@media (min-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: auto;
+  }
+}

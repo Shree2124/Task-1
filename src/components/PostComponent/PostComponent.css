@@ -1,0 +1,27 @@
+.custom-main-button {
+  top: 22px;
+  padding: 0 16px;
+}
+
+.text-main-posts {
+  color: #212529;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.14px;
+}
+
+.btn-filter {
+  background: #f1f3f5;
+  color: #212529;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+@media screen and (min-width: 992px) {
+  .posts-center {
+      flex: 1 0 auto;
+  }
+}

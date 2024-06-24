@@ -1,0 +1,36 @@
+.imagePost {
+  height: 220px;
+  border-radius: 4px 4px 0 0;
+  background-color: #c4c4c4;
+}
+
+.custom-dropdown-toggle {
+  background-color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+}
+
+.custom-dropdown-toggle::after {
+  display: none;
+  background-color: transparent;
+}
+.custom-dropdown-toggle:hover {
+  background-color: transparent;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.dropdown-img {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+}
+.custom-post-link {
+  border-radius: 10px;
+  border: .7px solid #a9aeb8;
+  background: #fff;
+}
